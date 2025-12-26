@@ -1,7 +1,7 @@
 // Desafio: Classificador de nível de Herói (DIO)
 
 let nome = "Denise";
-let xp = 5000;
+let xp = 7000;
 
 let nivel = "";
 

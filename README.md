@@ -1,34 +1,32 @@
-// ==========================================
-// Desafio Classificador de Nível de Herói
-// Plataforma: DIO
-// Linguagem: JavaScript (Node.js)
-// ==========================================
+# Desafio Classificador de Nível de Herói (DIO)
 
-// Variáveis principais
-let nomeHeroi = "Denise";
-let xpHeroi = 5000;
+Projeto prático desenvolvido em JavaScript (Node.js) para classificar o nível de um herói com base na quantidade de experiência (XP), utilizando variáveis e estruturas de decisão.
 
-// Variável para armazenar o nível
-let nivelHeroi;
+---
 
-// Estrutura de decisão para classificar o nível
-if (xpHeroi <= 1000) {
-  nivelHeroi = "Ferro";
-} else if (xpHeroi <= 2000) {
-  nivelHeroi = "Bronze";
-} else if (xpHeroi <= 5000) {
-  nivelHeroi = "Prata";
-} else if (xpHeroi <= 7000) {
-  nivelHeroi = "Ouro";
-} else if (xpHeroi <= 8000) {
-  nivelHeroi = "Platina";
-} else if (xpHeroi <= 9000) {
-  nivelHeroi = "Ascendente";
-} else if (xpHeroi <= 10000) {
-  nivelHeroi = "Imortal";
-} else {
-  nivelHeroi = "Radiante";
-}
+## 🧠 Regras de Classificação (XP)
 
-// Exibição da mensagem final
-console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`);
+- Até 1000 → Ferro
+- 1001 a 2000 → Bronze
+- 2001 a 5000 → Prata
+- 5001 a 7000 → Ouro
+- 7001 a 8000 → Platina
+- 8001 a 9000 → Ascendente
+- 9001 a 10000 → Imortal
+- A partir de 10001 → Radiante
+
+---
+
+## 💻 Tecnologias Utilizadas
+- JavaScript
+- Node.js
+- Git
+- GitHub
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/DHMafra/desafio-classificador-heroi.git
